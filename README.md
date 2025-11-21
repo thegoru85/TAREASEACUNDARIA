@@ -1,2 +1,261 @@
-# TAREASEACUNDARIA
-ESTA TAREA ESTA ECHA POR JUAN CARDONA,
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cartel: Juego Limpio Dentro y Fuera de la Cancha</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background: linear-gradient(135deg, #1a2a6c, #b21f1f, #fdbb2d);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .poster {
+            width: 100%;
+            max-width: 1000px;
+            background-color: white;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+        }
+        
+        .header {
+            background: linear-gradient(to right, #1a2a6c, #b21f1f);
+            color: white;
+            padding: 25px;
+            text-align: center;
+        }
+        
+        .header h1 {
+            font-size: 2.8rem;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+        
+        .header p {
+            font-size: 1.2rem;
+            font-weight: 300;
+        }
+        
+        .content {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 20px;
+        }
+        
+        .section {
+            flex: 1;
+            min-width: 300px;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+        
+        .section:hover {
+            transform: translateY(-5px);
+        }
+        
+        .section h2 {
+            color: #1a2a6c;
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #fdbb2d;
+        }
+        
+        .equidad {
+            background-color: #e8f4f8;
+        }
+        
+        .valores {
+            background-color: #f0f8e8;
+        }
+        
+        .protocolos {
+            background-color: #f8e8f0;
+        }
+        
+        .icon {
+            font-size: 2.5rem;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+        
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        
+        li {
+            margin-bottom: 12px;
+            padding-left: 25px;
+            position: relative;
+        }
+        
+        li:before {
+            content: "•";
+            color: #b21f1f;
+            font-weight: bold;
+            position: absolute;
+            left: 0;
+        }
+        
+        .footer {
+            background-color: #1a2a6c;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 1.1rem;
+        }
+        
+        .images-container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin: 20px 0;
+            padding: 15px;
+            background-color: #f5f5f5;
+            border-radius: 10px;
+        }
+        
+        .image-item {
+            text-align: center;
+            margin: 10px;
+            flex: 1;
+            min-width: 200px;
+        }
+        
+        .image-placeholder {
+            width: 150px;
+            height: 150px;
+            background-color: #ddd;
+            border-radius: 50%;
+            margin: 0 auto 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 3rem;
+            color: #666;
+        }
+        
+        .equality-icon {
+            background: linear-gradient(45deg, #ff6b6b, #4ecdc4);
+            color: white;
+        }
+        
+        .ethics-icon {
+            background: linear-gradient(45deg, #45b7d1, #96ceb4);
+            color: white;
+        }
+        
+        .sports-icon {
+            background: linear-gradient(45deg, #f093fb, #f5576c);
+            color: white;
+        }
+        
+        @media (max-width: 768px) {
+            .content {
+                flex-direction: column;
+            }
+            
+            .header h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="poster">
+        <div class="header">
+            <h1>JUEGO LIMPIO DENTRO Y FUERA DE LA CANCHA</h1>
+            <p>Promoviendo la equidad, los valores éticos y las prácticas seguras en el deporte</p>
+        </div>
+        
+        <div class="images-container">
+            <div class="image-item">
+                <div class="image-placeholder equality-icon">⚖️</div>
+                <p><strong>Equidad de Género</strong></p>
+            </div>
+            <div class="image-item">
+                <div class="image-placeholder ethics-icon">🌟</div>
+                <p><strong>Principios Éticos</strong></p>
+            </div>
+            <div class="image-item">
+                <div class="image-placeholder sports-icon">⚽</div>
+                <p><strong>Protocolos Deportivos</strong></p>
+            </div>
+        </div>
+        
+        <div class="content">
+            <div class="section equidad">
+                <div class="icon">👥</div>
+                <h2>EQUIDAD DE GÉNERO</h2>
+                <ul>
+                    <li>Igualdad de oportunidades para todos los géneros en la práctica deportiva</li>
+                    <li>Reconocimiento equitativo del talento sin distinción de género</li>
+                    <li>Promoción de equipos mixtos y liderazgo femenino</li>
+                    <li>Eliminación de estereotipos y prejuicios en el deporte</li>
+                    <li>Acceso igualitario a recursos, instalaciones y entrenamiento</li>
+                </ul>
+            </div>
+            
+            <div class="section valores">
+                <div class="icon">💖</div>
+                <h2>PRINCIPIOS ÉTICOS Y MORALES</h2>
+                <ul>
+                    <li><strong>Respeto:</strong> Por compañeros, rivales, árbitros y público</li>
+                    <li><strong>Justicia:</strong> Jugar limpio y aceptar las reglas</li>
+                    <li><strong>Integridad:</strong> Honestidad en cada acción y decisión</li>
+                    <li><strong>Responsabilidad:</strong> Asumir las consecuencias de nuestros actos</li>
+                    <li><strong>Solidaridad:</strong> Apoyar al equipo, especialmente en la derrota</li>
+                    <li><strong>Tolerancia:</strong> Aceptar la diversidad y diferencias</li>
+                </ul>
+            </div>
+            
+            <div class="section protocolos">
+                <div class="icon">📋</div>
+                <h2>PROTOCOLOS DEPORTIVOS</h2>
+                <ul>
+                    <li><strong>Antes del juego:</strong>
+                        <ul>
+                            <li>Calentamiento y estiramiento adecuado</li>
+                            <li>Revisión del equipo e instalaciones</li>
+                            <li>Establecimiento claro de reglas</li>
+                        </ul>
+                    </li>
+                    <li><strong>Durante el juego:</strong>
+                        <ul>
+                            <li>Seguir indicaciones del entrenador</li>
+                            <li>Hidratación constante</li>
+                            <li>Respeto a las decisiones arbitrales</li>
+                        </ul>
+                    </li>
+                    <li><strong>Después del juego:</strong>
+                        <ul>
+                            <li>Enfriamiento y estiramiento</li>
+                            <li>Saludo deportivo al rival</li>
+                            <li>Evaluación constructiva del desempeño</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p>¡Construyamos un deporte mejor para todos! | #EquidadDeportiva #JuegoLimpio #DeporteSeguro</p>
+        </div>
+    </div>
+</body>
+</html>
