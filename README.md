@@ -421,12 +421,9 @@
         <div class="contributors">
             <h3>Contribuyeron en este proyecto:</h3>
             <div class="contributors-list">
-                <span class="contributor">Ana García</span>
-                <span class="contributor">Carlos López</span>
-                <span class="contributor">María Rodríguez</span>
-                <span class="contributor">Javier Martínez</span>
-                <span class="contributor">Laura Sánchez</span>
-                <span class="contributor">Diego Fernández</span>
+                <span class="contributor">Juan Cardona</span>
+                <span class="contributor">Juan Cardona</span>
+                
             </div>
         </div>
         
